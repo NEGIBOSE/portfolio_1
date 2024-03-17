@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.register {
+    justify-content: space-between;
+}
+#selectedTitle {
+    font-size: 16px;
+}
+.register_middle {
+    display: flex;
+    justify-content: center;
+}
+.register_middle img {
+    height: 400px;
+    width: auto;
+}
