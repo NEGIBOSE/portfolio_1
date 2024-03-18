@@ -22,7 +22,7 @@ Route::get('/sample', [\App\Http\Controllers\Sample\IndexController::class, 'sho
 Route::get('/sample/{id}', [\App\Http\Controllers\Sample\IndexController::class, 'showId']);
 
 //home
-Route::get('/home', \App\Http\Controllers\Home\IndexController::class);
+Route::get('/home', \App\Http\Controllers\Home\IndexController::class)->name('home.index');;
 
 
 Route::get('/home/search', \App\Http\Controllers\Home\Search\IndexController::class)

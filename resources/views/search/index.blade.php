@@ -212,7 +212,7 @@
       <div class="search_bottom">
         <div class="search_select">
           <div class="select_text select_back">
-            <a href="index.html">HOME</a>
+            <a href="{{ route('home.index') }}">HOME</a>
           </div>
           <div class="select_text select_register bg_red">
             <a href="register.html">この本にする</a>
