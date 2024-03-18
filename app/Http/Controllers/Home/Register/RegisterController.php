@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Home\Register;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class IndexController extends Controller
+class RegisterController extends Controller
 {
     /**
      * Handle the incoming request.

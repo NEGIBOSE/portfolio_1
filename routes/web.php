@@ -30,6 +30,6 @@ Route::get('/home/search', \App\Http\Controllers\Home\Search\SearchController::c
 ->name('search.search');
 
 //登録
-Route::get('/home/register', \App\Http\Controllers\Home\Register\IndexController::class)
+Route::get('/home/register', \App\Http\Controllers\Home\Register\RegisterController::class)
 ->name('register.register');
 
