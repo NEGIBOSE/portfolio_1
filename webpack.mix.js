@@ -11,6 +11,12 @@ const mix = require("laravel-mix");
  |
  */
 
-mix.js("resources/js/app.js", "public/js")
-    .js("resources/js/search.js", "public/js") //←追加 出力元、先（出力名は元のが引き継がれる）
-    .sass("resources/sass/app.scss", "public/css");
+mix.js(
+    [
+        "resources/js/app.js",
+        "resources/js/bootstrap.js",
+        "resources/js/register.js",
+        "resources/js/search.js",
+    ],
+    "public/js"
+).sass("resources/sass/app.scss", "public/css");
