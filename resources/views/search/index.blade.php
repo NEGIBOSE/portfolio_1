@@ -222,8 +222,8 @@
     </main>
     <footer>&copy; 2024 My portfolio</footer>
     <!-- JavaScriptファイルの読み込み -->
-    <script src="{{ asset('/js/app.js') }}"></script>
-    <script src="{{ asset('/js/search.js') }}"></script>
+    <script src="{{ mix('js/app.js') }}"></script>
+    <script src="{{ mix('js/search.js') }}"></script>
     <script
       defer
       src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"

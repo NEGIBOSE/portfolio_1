@@ -48,7 +48,7 @@
     </main>
     <footer>&copy; 2024 My portfolio</footer>
     <!-- JavaScriptファイルの読み込み -->
-    <script src="assets/js/register.js"></script>
+    <script src="{{ mix('js/register.js') }}"></script>
     <script
       defer
       src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"
