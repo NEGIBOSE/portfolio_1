@@ -41,7 +41,7 @@
             <a href="#">はい</a>
           </div>
           <div class="select_text bg_yellow">
-            <a href="{{ route('search.index') }}">いいえ</a>
+            <a href="{{ route('search.search') }}">いいえ</a>
           </div>
         </div>
       </div>
