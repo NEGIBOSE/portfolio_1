@@ -1,4 +1,4 @@
-import "./bootstrap";
+require("./bootstrap");
 
 window.onload = function () {
     var images = [

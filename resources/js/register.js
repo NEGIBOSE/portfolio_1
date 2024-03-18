@@ -1,4 +1,4 @@
-import "./bootstrap";
+require("./bootstrap");
 
 // セッションストレージから選択した本の画像の URL とタイトルを取得
 var selectedImageUrl = sessionStorage.getItem("selectedImageUrl");

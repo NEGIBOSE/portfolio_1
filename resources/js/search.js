@@ -1,4 +1,4 @@
-import "./bootstrap";
+require("./bootstrap");
 
 // 選択された本の画像URLを保持する変数
 let selectedImageUrl;

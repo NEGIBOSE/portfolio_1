@@ -13,9 +13,7 @@
     />
 
     <!-- CSSファイルの読み込み -->
-    <link rel="stylesheet" href="{{ asset('css/sanitize.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/search.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}" />
 
   </head>
   <body>
@@ -223,7 +221,6 @@
     <footer>&copy; 2024 My portfolio</footer>
     <!-- JavaScriptファイルの読み込み -->
     <script src="{{ mix('js/app.js') }}"></script>
-    <script src="{{ mix('js/search.js') }}"></script>
     <script
       defer
       src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"

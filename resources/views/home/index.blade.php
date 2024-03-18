@@ -13,8 +13,8 @@
     />
 
     <!-- CSSファイルの読み込み -->
-    <link rel="stylesheet" href="{{ asset('css/sanitize.css') }}" />
-    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}" />
+
   </head>
   <body>
     <header class="header">
