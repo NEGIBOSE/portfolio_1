@@ -13,10 +13,11 @@
     />
 
     <!-- CSSファイルの読み込み -->
-    <link rel="stylesheet" href="./assets/css/sanitize.css" />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-    <link rel="stylesheet" href="./assets/css/register.css" />
-  </head>
+    <link rel="stylesheet" href="{{ asset('css/sanitize.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}" />
+    <link rel="stylesheet" href="{{ asset('css/register.css') }}" />
+
+</head>
   <body>
     <header class="header bg_red">
       <div class="title">Chara-Books</div>
