@@ -21,9 +21,15 @@ Route::get('/', function () {
 Route::get('/sample', [\App\Http\Controllers\Sample\IndexController::class, 'show']);
 Route::get('/sample/{id}', [\App\Http\Controllers\Sample\IndexController::class, 'showId']);
 
-//home
-Route::get('/home', \App\Http\Controllers\Home\IndexController::class)->name('home.index');;
+//ホーム
+Route::get('/home', \App\Http\Controllers\Home\IndexController::class)
+->name('home.index');
 
-
+//検索
 Route::get('/home/search', \App\Http\Controllers\Home\Search\IndexController::class)
 ->name('search.index');
+
+//登録
+Route::get('/home/register', \App\Http\Controllers\Home\Register\IndexController::class)
+->name('register.index');
+

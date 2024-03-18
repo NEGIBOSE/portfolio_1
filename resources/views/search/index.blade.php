@@ -215,7 +215,7 @@
             <a href="{{ route('home.index') }}">HOME</a>
           </div>
           <div class="select_text select_register bg_red">
-            <a href="register.html">この本にする</a>
+            <a href="{{ route('register.index') }}">この本にする</a>
           </div>
         </div>
       </div>
