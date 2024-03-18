@@ -26,7 +26,7 @@ Route::get('/home', \App\Http\Controllers\Home\IndexController::class)
 ->name('home.index');
 
 //検索
-Route::get('/home/search', \App\Http\Controllers\Home\Search\IndexController::class)
+Route::get('/home/search', \App\Http\Controllers\Home\Search\SearchController::class)
 ->name('search.search');
 
 //登録
