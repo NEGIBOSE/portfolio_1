@@ -12,6 +12,6 @@ class IndexController extends Controller
      */
     public function __invoke(Request $request)
     {
-        return view('chara-books.index', ['name' => 'laravel']);
+        return view('home.index');
     }
 }

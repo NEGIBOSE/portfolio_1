@@ -12,6 +12,6 @@ class IndexController extends Controller
      */
     public function __invoke(Request $request)
     {
-        return "こんにちは";
+        return view('search.index');
     }
 }
